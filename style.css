@@ -12,6 +12,7 @@
     background: linear-gradient(to right, #fff712, #ff9a17);
 }
 .navbar{
+    background: white;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -53,7 +54,7 @@
     height: 100%;
 }
 .navbar_links:hover{
-    color: white;
+    color: #ff9a17;
     transition: all 0.3s ease;
 }
 @media screen and (max-width: 960px){
@@ -79,6 +80,7 @@
         z-index: -1;
     }
     .navbar_menu.active{
+        background: white;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
