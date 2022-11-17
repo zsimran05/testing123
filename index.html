@@ -4,8 +4,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Oasis</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- MapBox stuff -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+
 </head>
 <body>
+
+    <!-- MapBox stuff -->
+    <div id='map' style='width: 400px; height: 300px;'></div>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoienBhbjMiLCJhIjoiY2xha2Yzd3RvMGxvZzN5bGYydGpsZGNjOSJ9.JbRKjmgYO_jvMrQLVzEMSQ';
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11'
+      });
+    </script>
+
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="navbar_container">
@@ -30,6 +47,7 @@
             </ul>
         </div>
     </nav>
+    
     <div class="main">
         
     </div>
