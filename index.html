@@ -4,25 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Oasis</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- MapBox stuff -->
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
-
-
 </head>
+
 <body>
-
-    <!-- MapBox stuff -->
-    <div id='map' style='width: 400px; height: 300px;'></div>
-    <script>
-      mapboxgl.accessToken = 'pk.eyJ1IjoienBhbjMiLCJhIjoiY2xha2Yzd3RvMGxvZzN5bGYydGpsZGNjOSJ9.JbRKjmgYO_jvMrQLVzEMSQ';
-      var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11'
-      });
-    </script>
-
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="navbar_container">
@@ -38,10 +22,10 @@
             </div>
             <ul class="navbar_menu">
                 <li class="navbar_item">
-                    <a href="#" class="navbar_links">Home</a>
+                    <a href="index.html" class="navbar_links">Home</a>
                 </li>
                 <li class="navbar_item">
-                    <a href="#" class="navbar_links">Find Oasis</a>
+                    <a href="findOasis.html" class="navbar_links">Find Oasis</a>
                 </li>
                 <li class="navbar_item">
                     <a href="#" class="navbar_links">New Oasis</a>
@@ -57,7 +41,7 @@
                 <h1>FRESH AND NUTRITIOUS FOOD SOURCES</h1>
                 <h2>FOR EVERYONE</h2>
                 <p>Nonprofit food oasis to give food to the community</p>
-                <button class="findOasis_btn"><a href="#">FIND OASIS</a></button> 
+                <button class="findOasis_btn"><a href="findOasis.html">FIND OASIS</a></button> 
                 <button class="newOasis_btn"><a href="#">NEW OASIS</a></button>
             </div>
             <div class="main_img-container">
