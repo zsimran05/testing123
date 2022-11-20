@@ -283,7 +283,7 @@
         font-size: 1.25rem;
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
     .main_content h1{
         font-size: 2rem;
         margin-top: 2rem;
@@ -371,7 +371,7 @@
         font-size: 1.2rem;
     } 
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
     .mission_content h1{
         font-size: 1.75rem;
         margin-top: .75rem;
@@ -405,7 +405,7 @@
         font-size: 15px;
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
     #myBtn{
         padding: 10px;
         font-size: 12px;
