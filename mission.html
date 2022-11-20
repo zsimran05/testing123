@@ -4,13 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Oasis</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- MapBox stuff -->
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
-
-
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
@@ -42,15 +37,21 @@
         </div>
     </nav>
 
-    <!-- MapBox stuff -->
-    <div id='map' style='width: 400px; height: 300px;'></div>
-    <script>
-      mapboxgl.accessToken = 'pk.eyJ1IjoienBhbjMiLCJhIjoiY2xha2Yzd3RvMGxvZzN5bGYydGpsZGNjOSJ9.JbRKjmgYO_jvMrQLVzEMSQ';
-      var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11'
-      });
-    </script>
+    <!-- Mission Section -->
+    <div class="mission">
+        <div class="mission_container">
+            <div class="mission_content">
+                <h1>OUR MISSION</h1>
+                <p>Our mission is to provide a platform to connect anyone to free food sources around the world.</p>
+                <p>Help us today by creating an oasis or by donating to a nearby oasis. </p>
+            </div>
+            <div class="mission_img-container">
+                <img src="images/img_op1.svg" alt="pic2" id="mission_img">
+            </div>
+        </div>
+    </div>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <script src="app.js"></script>
 </body>
