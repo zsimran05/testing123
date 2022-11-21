@@ -488,6 +488,9 @@ input[type=text], input[type=password]{
     }
 }
 @media screen and (max-width: 500px){
+    .signupLoginForms{
+        display: block;
+    }
     .signupForm{
         font-size: 12px;
     }
