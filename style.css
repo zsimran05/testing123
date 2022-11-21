@@ -451,7 +451,7 @@ input[type=submit]:hover{
     background-color: #ff9a17;
     transition: all 0.3s ease;
 }
-input[type=text], input[type=password]{
+input[id=username], input[type=password]{
     width: 100%;
     padding: 5px 5px;
     margin: 8px 0;
@@ -479,7 +479,7 @@ input[type=text], input[type=password]{
     .loginForm{
         font-size: 15px;
     }
-    input[type=text], input[type=password], input[type=tel]{
+    input[id=username], input[type=password], input[type=tel]{
         font-size: 12px;
     }
     input[type=submit]{
@@ -503,7 +503,7 @@ input[type=text], input[type=password]{
     .loginForm{
         font-size: 12px;
     }
-    input[type=text], input[type=password], input[type=tel]{
+    input[id=username], input[type=password], input[type=tel]{
         font-size: 10px;
     }
     input[type=submit]{
@@ -511,3 +511,4 @@ input[type=text], input[type=password]{
         font-size: 10px;
     }
 }
+
