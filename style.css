@@ -451,7 +451,7 @@ input[type=submit]:hover{
     background-color: #ff9a17;
     transition: all 0.3s ease;
 }
-input[type=text], input[type=password], input[type=tel]{
+input[type=text], input[type=password]{
     width: 100%;
     padding: 5px 5px;
     margin: 8px 0;
