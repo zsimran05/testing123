@@ -4,6 +4,9 @@
     padding: 0;
     font-family: Avenir;
 }
+body{
+    background-color: #f6f6e9ff;
+}
 /* Navigation Bar */
 .navbar{
     background:#f6f6e9ff;
@@ -186,6 +189,7 @@
     color:white;
     margin-top: 2rem;
     margin-right: 2rem;
+    margin-bottom: 10px;
     cursor: pointer;
     position: relative;
     transition: all 0.35s;
@@ -223,6 +227,7 @@
     color:white;
     margin-top: 2rem;
     margin-right: 2rem;
+    margin-bottom: 10px;
     cursor: pointer;
     position: relative;
     transition: all 0.35s;
@@ -311,7 +316,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: fit-content;
+    height: 90vh;
 }
 .mission_container{
     background-color: #f6f6e9ff;
@@ -411,5 +416,89 @@
     #myBtn{
         padding: 10px;
         font-size: 12px;
+    }
+}
+/* login and signup */
+.signupLoginForms{
+    margin-top: 10px;
+    display: flex;
+    background-color: #f6f6e9ff;
+}
+.signupForm{
+    height: fit-content;
+    width: 400px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10 auto;
+}
+.signupForm h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    background-color: #04AA6D;
+    width: 25%;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input[type=submit]:hover{
+    background-color: #ff9a17;
+    transition: all 0.3s ease;
+}
+input[type=text], input[type=password], input[type=tel]{
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #383737;
+    font-size: 15px ;
+    border-radius: 4px;
+}
+.loginForm{
+    height: fit-content;
+    width: 400px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10 auto;
+}
+.loginForm h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 960px){
+    .signupForm{
+        font-size: 15px;
+    }
+    .loginForm{
+        font-size: 15px;
+    }
+    input[type=text], input[type=password], input[type=tel]{
+        font-size: 12px;
+    }
+    input[type=submit]{
+        width: 25%;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 500px){
+    .signupForm{
+        font-size: 12px;
+    }
+    .loginForm{
+        font-size: 12px;
+    }
+    input[type=text], input[type=password], input[type=tel]{
+        font-size: 10px;
+    }
+    input[type=submit]{
+        width: 20%;
+        font-size: 10px;
     }
 }

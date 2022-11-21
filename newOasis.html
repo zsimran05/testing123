@@ -42,15 +42,54 @@
         </div>
     </nav>
 
-    <!-- MapBox stuff -->
-    <div id='map' style='width: 400px; height: 300px;'></div>
-    <script>
-      mapboxgl.accessToken = 'pk.eyJ1IjoienBhbjMiLCJhIjoiY2xha2Yzd3RvMGxvZzN5bGYydGpsZGNjOSJ9.JbRKjmgYO_jvMrQLVzEMSQ';
-      var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11'
-      });
-    </script>
+    <div class="signupLoginForms">
+
+        <div class="signupForm">
+            <h1>Sign Up</h1>
+            <!-- Form has no action !!-->
+            <form>
+                <div>
+                    <label for="username">Username: </label>
+                    <input type="text" id="username" name="username" placeholder="username" required>
+                </div>
+                <br>
+                <div>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password" placeholder="password" required>
+                </div>
+                <br>
+                <div>
+                    <label for="phonenumber">Phone number: </label>
+                    <input type="tel" id="phonenumber" name="phonenumber" placeholder="123-456-7891" required>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Sign Up">
+                </div>
+            </form>
+        </div>
+        <hr style="background-color:#383737">
+        <div class="loginForm">
+            <h1>Login</h1>
+            <!-- Form has no action !!-->
+            <form>
+                <div>
+                    <label for="username">Username: </label>
+                    <input type="text" id="username" name="username" placeholder="username" required>
+                </div>
+                <br>
+                <div>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password" placeholder="password" required>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+
+    </div>
 
     <script src="app.js"></script>
 </body>
