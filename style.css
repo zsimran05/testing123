@@ -490,6 +490,12 @@ input[type=text], input[type=password]{
 @media screen and (max-width: 500px){
     .signupLoginForms{
         display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: fit-content;
     }
     .signupForm{
         font-size: 12px;
